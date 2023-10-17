@@ -7,14 +7,14 @@ public class Paladin : Character, IHealer, ITank
 
     public int AttackPower { get; set; }
 
-    public Paladin() : base()
+    public Paladin()
     {
         Buff = 0;
         HealPower = 15;
         AttackPower = 25;
     }
 
-    public Paladin(string name, float maxHealth) : base(name, maxHealth)
+    public Paladin(string name, float maxHealth)
     {
         Buff = 0;
         HealPower = 15;
@@ -39,6 +39,6 @@ public class Paladin : Character, IHealer, ITank
 
     public override string ToString()
     {
-        return Name + " : " + Health + "/" + MaxHealth + " | Classe : Paladin | Buff : " + Buff;
+        return Name + ": " + Health + "/" + MaxHealth + " | Classe : Paladin | Buff : " + Buff;
     }
 }

@@ -11,12 +11,12 @@ public class Cleric : Character, IHealer
 {
     public int HealPower { get; set; }
 
-    public Cleric() : base()
+    public Cleric()
     {
         HealPower = 15;
     }
 
-    public Cleric(string name, float maxHealth) : base(name, maxHealth)
+    public Cleric(string name, float maxHealth)
     {
         HealPower = 15;
     }
@@ -47,12 +47,12 @@ public class Warrior : Character, ITank
 {
     public int AttackPower { get; set; }
 
-    public Warrior() : base()
+    public Warrior()
     {
         AttackPower = 25;
     }
 
-    public Warrior(string name, float maxHealth) : base(name, maxHealth)
+    public Warrior(string name, float maxHealth)
     {
         AttackPower = 25;
     }

@@ -6,12 +6,12 @@ namespace CSharpDiscovery.Examen
     {
         public float Mana { get; set; }
 
-        public Cleric() : base()
+        public Cleric()
         {
             Mana = 100;
         }
 
-        public Cleric(string name, float maxHealth) : base(name, maxHealth)
+        public Cleric(string name, float maxHealth)
         {
             Mana = 100;
         }

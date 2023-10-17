@@ -6,12 +6,12 @@ namespace CSharpDiscovery.Examen
     {
         public bool Bravery { get; set; }
 
-        public Warrior() : base()
+        public Warrior()
         {
             Bravery = false;
         }
 
-        public Warrior(string name, float maxHealth) : base(name, maxHealth)
+        public Warrior(string name, float maxHealth)
         {
             Bravery = false;
         }
